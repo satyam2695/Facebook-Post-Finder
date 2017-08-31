@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<title>EFFULGENCE</title>
+<link  rel="stylesheet" href="script/bootstrap.css"/>
+<link  rel="stylesheet" href="script/bootstrap-theme.min.css"/>    
+ <link rel="stylesheet" href="script/design.css"/>
+  <script src="script/jquery.min.js"  type="text/javascript"></script> 
+  <script src="script/bootstrap.js"  type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ </head>
+<body background="image/71.jpg">
+
+
+<div class="modal fade" id="signup">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title title1">Register</h4>
+      </div>
+      <div class="modal-body title2">
+        <p><form role="form">
+<div class="form-group">	  
+First Name:<input type="text" name="fname" maxlength="17"  placeholder="Enter first name" class="form-control"/>
+</div>
+<div class="form-group">
+Last Name:<input type="text" name="lname" maxlength="19"  placeholder="Enter last name" class="form-control"/> 
+</div>
+<div class="form-group">
+Password:
+<input type="password" name="password" maxlength="6" placeholder="Enter Password" class="form-control"/>
+</div>
+<div class="form-group">
+Description:
+<textarea placeholder="Enter description here.." rows="6" cols="15" class="form-control">
+</textarea> 
+</div>
+<div class="form-group">
+ Gender:
+ Male:<input type="radio" name="gender" value="male" checked /> 
+ Female:<input type="radio" name="gender" value="female" />
+ </div>
+ <div class="form-group">
+ Events:
+ Tech Fest<input type="checkbox" name="hobby" value="singing" />
+ Cultural Fest<input type="checkbox" name="hobby" value="cultural" /><br />
+ Gaming<input type="checkbox" name="hobby" value="game" />
+ Sports Fest<input type="checkbox" name="hobby" value="sports" />
+ </div>
+ <div class="form-group">
+ Which college do you belong to?
+ <select name="country" class="form-control">
+ <option value="IITs" class="form-control">IITs</option>
+ <option value="NITs" selected class="form-control">NITs</option>
+ <option value="IIITs" class="form-control">IIITs</option>
+ <option value="UPTU GOV CLLG" class="form-control">UPTU GOVT. COLLEGE</option>
+ <option value="OTHERS" class="form-control">OTHERS</option>
+ </select> 
+<br />
+</div>
+<div class="form-group">
+ <input type="submit" value="Go!" class="btn-primary">
+ </div>
+</form>
+	 </div></p>
+      </div>
+    
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="message">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title title1">Leave a Message</h4>
+      </div>
+      <div class="modal-body title2">
+        <p><form role="form">
+<div class="form-group">	  
+Name:<input type="text" name="fname" maxlength="30"  placeholder="Enter name" class="form-control"/>
+</div>
+<div class="form-group">
+Email:<input type="text" name="email" maxlength="19"  placeholder="abc@xyz.com" class="form-control"/> 
+</div>
+
+<div class="form-group">
+Messages:
+<textarea placeholder="Enter description here.." rows="6" cols="15" class="form-control">
+</textarea> 
+</div>
+
+<div class="form-group">
+ <input type="submit" value="Go!" class="btn-primary">
+ </div>
+</form>
+	 </div></p>
+      </div>
+    
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<div class="modal fade" id="contactus">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title title1">Contact Us</h4>
+      </div>
+	  
+      <div class="modal-body title2">
+        <p>
+		<h2>Coodinator-</h2>
+		<img src="image/81.jpg" width=100 height=100>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Satyam Gupta IV-Year C.S.E.<br>
+		<img src="image/83.jpg" width=100 height=100>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Rajat Khemka IV-Year I.T.<br>
+		</p>
+
+	 </div></p>
+      </div>
+    
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="effulgence.html">Effulgence2k14.in</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="effulgence.html">home</a></li>
+        <li><a href="workshop.html">Workshop</a></li>
+        <li><a href="concert.htm">DJ Night</a></li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">events <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="events.html">Cultural</a></li>
+            <li><a href="events.html">CyberQuest</a></li>
+            <li><a href="events.html">Electrum</a></li>
+            <li class="divider"></li>
+            <li><a href="events.html">Buildup</a></li>
+            <li class="divider"></li>
+            <li><a href="events.html">Mathemania</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li data-toggle="modal" data-target="#signup"><a href="#">Register</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Link <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li data-toggle="modal" data-target="#contactus"><a href="#">About us</a></li>
+            <li><a href="http://wwww.knit.ac.in" target=0>Admin Cell</a></li>
+            <li><a href="#">Sponsors</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</nav>
+<div class="row">
+<div class="col-md-12">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</div>
+<div class="row">
+<div class="col-md-8"><font color="white">
+<h1>Night with Mohit Chauhan</h1>
+<h3>2 Dec</h3></font>
+</div>
+<div class="col-md-4">
+<font color="white"><h1>Night with Atif Aslam</h1>
+<h3>4 Dec</h3></font>
+</div>
+</div>
+</body>
+</html>
